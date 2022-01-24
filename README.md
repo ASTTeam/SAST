@@ -24,6 +24,7 @@ SAST在安全测试领域及其重要。不仅是解决漏洞的一个有效方�
 - https://xz.aliyun.com/t/9531
 - https://github.com/rishisoni90/SECURE-PROGRAMMING-UTA
 - https://github.com/RangerNJU/Static-Program-Analysis-Book
+- https://evilpan.com/2022/01/22/code-audit
 
 ## 02-SAST工具产品
 
