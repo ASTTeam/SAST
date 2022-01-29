@@ -1,13 +1,13 @@
 # SAST静态应用安全测试
-SAST在安全测试领域及其重要。不仅是解决漏洞的一个有效方法利器，更是基础安全之上解决漏洞的有效措施。SAST有时弊病百出，比如效果严重依赖规则库、误报漏报率太高、特定漏洞无法检测等问题。但SAST的发展确实推动了安全漏洞的发展，弥补了DAST的某些不足，甚至促进了IAST的发展。作者：[0e0w](https://github.com/0e0w)
+SAST在安全测试领域极其重要。不仅是解决漏洞的一个有效方法利器，更是基础安全之上解决漏洞的有效措施。SAST有时弊病百出，比如效果严重依赖规则库、误报漏报率太高、特定漏洞无法检测等问题。但SAST的发展确实推动了安全漏洞的发展，弥补了DAST的某些不足，甚至促进了IAST的发展。作者：[0e0w](https://github.com/0e0w)
 
-本项目创建于2022年1月22日，最近的一次更新时间为2022年1月25日。
+本项目创建于2022年1月22日，最近的一次更新时间为2022年1月29日。
 
-- [01-SAST基础资源](https://github.com/0e0w/SAST#01-sast%E5%9F%BA%E7%A1%80%E8%B5%84%E6%BA%90)
-- [02-SAST工具产品](https://github.com/0e0w/SAST#02-sast%E5%B7%A5%E5%85%B7%E4%BA%A7%E5%93%81)
-- [03-SAST方法思想](https://github.com/0e0w/SAST#03-sast%E6%96%B9%E6%B3%95%E6%80%9D%E6%83%B3)
-- [04-SAST未来发展](https://github.com/0e0w/SAST#04-sast%E6%9C%AA%E6%9D%A5%E5%8F%91%E5%B1%95)
-- [05-SAST参考资源](https://github.com/0e0w/SAST#05-sast%E5%8F%82%E8%80%83%E8%B5%84%E6%BA%90)
+- [01-SAST基础资源](https://github.com/ASTTeam/SAST#01-sast%E5%9F%BA%E7%A1%80%E8%B5%84%E6%BA%90)
+- [02-SAST工具产品](https://github.com/ASTTeam/SAST#02-sast%E5%B7%A5%E5%85%B7%E4%BA%A7%E5%93%81)
+- [03-SAST方法思想](https://github.com/ASTTeam/SAST#03-sast%E6%96%B9%E6%B3%95%E6%80%9D%E6%83%B3)
+- [04-SAST未来发展](https://github.com/ASTTeam/SAST#04-sast%E6%9C%AA%E6%9D%A5%E5%8F%91%E5%B1%95)
+- [05-SAST参考资源](https://github.com/ASTTeam/SAST#05-sast%E5%8F%82%E8%80%83%E8%B5%84%E6%BA%90)
 
 ## 01-SAST基础资源
 
