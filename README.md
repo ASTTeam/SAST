@@ -1,15 +1,16 @@
-# 《SAST静态应用安全测试》
-SAST在安全测试领域极其重要。不仅是解决漏洞的一个有效方法利器，更是基础安全之上解决漏洞的有效措施。SAST有时弊病百出，比如效果严重依赖规则库、误报漏报率太高、特定漏洞无法检测等问题。但SAST的发展确实推动了安全漏洞的发展，弥补了DAST的某些不足，甚至促进了IAST的发展。作者：[0e0w](https://github.com/0e0w)
+# 《深入理解SAST静态应用安全测试》
+SAST在安全领域极其重要，不仅是解决漏洞的有效利器，更是基础安全之上发现漏洞的有效方法。SAST尽管有时弊病百出，比如效果严重依赖规则库、误报漏报率太高、特定漏洞无法检测等问题。但SAST的发展推动了安全漏洞的发展，弥补了DAST的不足，促进了IAST的发展。SAST是代码审计，SAST不只是代码审计！作者：[0e0w](https://github.com/0e0w)
 
-本项目创建于2022年1月22日，最近的一次更新时间为2022年3月16日。
+本项目创建于2022年1月22日，最近的一次更新时间为2022年3月19日。项目持续更新，直到海枯石！
 
-- [01-SAST基础资源](https://github.com/ASTTeam/SAST#01-sast%E5%9F%BA%E7%A1%80%E8%B5%84%E6%BA%90)
-- [02-SAST工具产品](https://github.com/ASTTeam/SAST#02-sast%E5%B7%A5%E5%85%B7%E4%BA%A7%E5%93%81)
-- [03-SAST方法思想](https://github.com/ASTTeam/SAST#03-sast%E6%96%B9%E6%B3%95%E6%80%9D%E6%83%B3)
-- [04-SAST未来发展](https://github.com/ASTTeam/SAST#04-sast%E6%9C%AA%E6%9D%A5%E5%8F%91%E5%B1%95)
-- [05-SAST参考资源](https://github.com/ASTTeam/SAST#05-sast%E5%8F%82%E8%80%83%E8%B5%84%E6%BA%90)
+- [01-SAST资源](https://github.com/ASTTeam/SAST#01-sast%E8%B5%84%E6%BA%90)
+- [02-SAST工具](https://github.com/ASTTeam/SAST#02-sast%E5%B7%A5%E5%85%B7)
+- [03-SAST原理](https://github.com/ASTTeam/SAST#03-sast%E5%8E%9F%E7%90%86)
+- [04-SAST开发](https://github.com/ASTTeam/SAST#04-sast%E5%BC%80%E5%8F%91)
+- [05-SAST未来](https://github.com/ASTTeam/SAST#05-sast%E6%9C%AA%E6%9D%A5)
+- [06-SAST参考](https://github.com/ASTTeam/SAST#06-sast%E5%8F%82%E8%80%83)
 
-## 01-SAST基础资源
+## 01-SAST资源
 
 一、书籍资源
 - [ ]  [《Java代码审计-入门篇》](https://item.jd.com/10033832360716.html)@陈俊杰等
@@ -20,42 +21,58 @@ SAST在安全测试领域极其重要。不仅是解决漏洞的一个有效方�
 - [ ]  [《Java编码指南》](https://www.amazon.co.uk/编写安全可靠程序的75条建议（英文版）-德鲁·莫欣达（Dhruv-C-西科德（Robert-F-萨瑟兰（Dean-弗雷德·朗（Fred/dp/B017WGUFKO)@刘先宁
 - [ ]  [《Java-Web-Security》](https://play.google.com/store/books/details/Java_Web_Security_Sichere_Webanwendungen_mit_Java_?id=ZxZ4DwAAQBAJ&hl=en_US&gl=US)@Dominik Schadow
 - [ ]  [《代码审计-企业级Web代码安全架构》](https://item.jd.com/10082081248.html)@尹毅
+- [ ]  [《58集团白盒代码审计系统建设实践》](https://www.freebuf.com/articles/es/269266.html)@58安全
 
 二、学术论文
 
-三、其他资源
+三、视频资源
 
-- https://xz.aliyun.com/t/10216
-- https://github.com/trailofbits/pip-audit
-- https://www.freebuf.com/sectool/240588.html
-- https://paper.seebug.org/1339
-- https://xz.aliyun.com/t/9531
-- https://github.com/rishisoni90/SECURE-PROGRAMMING-UTA
-- https://github.com/RangerNJU/Static-Program-Analysis-Book
-- https://evilpan.com/2022/01/22/code-audit
-- https://github.com/lcatro/Source-and-Fuzzing
-- https://github.com/pen4uin/static-analysis
-- https://github.com/pen4uin/dotnet-security
-- https://github.com/pen4uin/python-security
-- https://github.com/pen4uin/golang-security
-- https://github.com/modernizing/modernization
-- https://github.com/jiangsir404/Audit-Learning
-- https://github.com/twosmi1e/Static-Analysis-and-Automated-Code-Audit
-- https://github.com/SummerSec/Static-Analysis
+四、优秀资源
 
-## 02-SAST工具产品
+五、英文资源
+- [ ] [《Lessons from Building Static Analysis Tools at Google》](https://cseweb.ucsd.edu/~dstefan/cse227-spring20/papers/sadowski:lessons.pdf)
 
+六、其他资源
+- [ ] https://xz.aliyun.com/t/10216
+- [ ] https://xz.aliyun.com/t/9335
+- [ ] https://xz.aliyun.com/t/9429
+- [ ] https://github.com/trailofbits/pip-audit
+- [ ] https://www.freebuf.com/sectool/240588.html
+- [ ] https://paper.seebug.org/1339
+- [ ] https://xz.aliyun.com/t/9531
+- [ ] https://github.com/rishisoni90/SECURE-PROGRAMMING-UTA
+- [ ] https://github.com/RangerNJU/Static-Program-Analysis-Book
+- [ ] https://evilpan.com/2022/01/22/code-audit
+- [ ] https://github.com/lcatro/Source-and-Fuzzing
+- [ ] https://github.com/pen4uin/static-analysis
+- [ ] https://github.com/pen4uin/dotnet-security
+- [ ] https://github.com/pen4uin/python-security
+- [ ] https://github.com/pen4uin/golang-security
+- [ ] https://github.com/modernizing/modernization
+- [ ] https://github.com/jiangsir404/Audit-Learning
+- [ ] https://github.com/twosmi1e/Static-Analysis-and-Automated-Code-Audit
+- [ ] https://github.com/SummerSec/Static-Analysis
+- [ ] https://www.softwaretestinghelp.com/tools/top-40-static-code-analysis-tools
+- [ ] https://en.wikipedia.org/wiki/List_of_tools_for_static_code_analysis
+- [ ] https://owasp.org/www-community/Source_Code_Analysis_Tools
+- [ ] https://dzone.com/articles/top-7-static-code-analysis-tools
+
+## 02-SAST工具
+
+一、优秀工具
+- [ ]  https://github.com/ASTTeam/CodeQL
+- [ ]  https://github.com/ASTTeam/Semgrep
+- [ ]  https://github.com/returntocorp/semgrep
+
+二、开源工具
 - https://github.com/topics/SAST
 - https://github.com/search?q=SAST
-
-一、开源工具
 - [ ]  https://github.com/analysis-tools-dev/static-analysis
 - [ ]  https://github.com/ZupIT/horusec
 - [ ]  https://github.com/ZupIT/horusec-engine
 - [ ]  https://github.com/insidersec/insider
 - [ ]  https://github.com/FeeiCN/Cobra
 - [ ]  https://github.com/LoRexxar/Kunlun-M
-- [ ]  https://github.com/returntocorp/semgrep
 - [ ]  [https://checkstyle.sourceforge.io](https://checkstyle.sourceforge.io/)
 - [ ]  https://github.com/j5s/XVulnFinder
 - [ ] https://www.microfocus.com
@@ -113,17 +130,19 @@ SAST在安全测试领域极其重要。不仅是解决漏洞的一个有效方�
 - [ ] https://github.com/marcinguy/scanmycode-ce
 - [ ] https://github.com/AppThreat/dep-scan
 - [ ] https://github.com/Tencent/CodeAnalysis
-
-二、商业产品
-- [ ] [Tencent Xcheck](https://cloud.tencent.com/product/asd)
-- [ ] [奇安信代码卫士]()
-
-三、Android
-
+- [ ] https://github.com/murphysecurity/murphysec
+- [ ] https://xz.aliyun.com/t/10756
+- [ ] https://github.com/joernio/joern
 - [ ] https://github.com/MobSF/Mobile-Security-Framework-MobSF
 - [ ] https://github.com/droidsec-cn/Alien-Intelligent-Security-Assessment-for-Android
 
-## 03-SAST方法思想
+三、商业产品
+- [ ] [腾讯Xcheck](https://cloud.tencent.com/product/asd)
+- [ ] [奇安信代码卫士]()
+
+## 03-SAST原理
+
+本章节介绍SAST的实现原理设计思想等内容。
 
 一、基于正则
 
@@ -135,11 +154,13 @@ SAST在安全测试领域极其重要。不仅是解决漏洞的一个有效方�
 
 五、基于......？
 
-## 04-SAST未来发展
+## 04-SAST开发
+
+## 05-SAST未来
 
 - 一款优秀的SAST产品应该具备什么样的特性？
 
-## 05-SAST参考资源
+## 06-SAST参考
 
 - https://github.com/HackJava/HackJava
 
