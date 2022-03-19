@@ -1,5 +1,5 @@
 # 《深入理解SAST静态应用安全测试》
-SAST在安全领域极其重要，不仅是解决漏洞的有效利器，更是基础安全之上发现漏洞的有效方法。SAST尽管有时弊病百出，比如效果严重依赖规则库、误报漏报率太高、特定漏洞无法检测等问题。但SAST的发展从根本上推动了安全漏洞的发展，弥补了DAST的不足，促进了IAST的发展。SAST是代码审计，SAST不只是代码审计！作者：[0e0w](https://github.com/0e0w)
+SAST在安全领域极其重要，不仅是解决漏洞的有效利器，更是基础安全之上发现漏洞的有效方法。SAST尽管有时弊病百出，比如严重依赖规则、误报漏报率太高、特定漏洞无法检测等问题。但SAST的发展从根本上推动了安全漏洞的发展，弥补了DAST的不足，促进了IAST的发展。SAST是代码审计，SAST不只是代码审计！作者：[0e0w](https://github.com/0e0w)
 
 本项目创建于2022年1月22日，最近的一次更新时间为2022年3月19日。项目持续更新，直到海枯石！
 
@@ -33,9 +33,11 @@ SAST在安全领域极其重要，不仅是解决漏洞的有效利器，更是�
 - [ ] [《Lessons from Building Static Analysis Tools at Google》](https://cseweb.ucsd.edu/~dstefan/cse227-spring20/papers/sadowski:lessons.pdf)
 
 六、其他资源
+- 先知
 - [ ] https://xz.aliyun.com/t/10216
 - [ ] https://xz.aliyun.com/t/9335
 - [ ] https://xz.aliyun.com/t/9429
+- [ ] https://xz.aliyun.com/t/10756
 - [ ] https://github.com/trailofbits/pip-audit
 - [ ] https://www.freebuf.com/sectool/240588.html
 - [ ] https://paper.seebug.org/1339
@@ -56,33 +58,34 @@ SAST在安全领域极其重要，不仅是解决漏洞的有效利器，更是�
 - [ ] https://en.wikipedia.org/wiki/List_of_tools_for_static_code_analysis
 - [ ] https://owasp.org/www-community/Source_Code_Analysis_Tools
 - [ ] https://dzone.com/articles/top-7-static-code-analysis-tools
+- [ ] https://www.incredibuild.cn/blog/top-9-c-static-code-analysis-tools
 
 ## 02-SAST工具
 
+- https://github.com/analysis-tools-dev/static-analysis
+
 一、优秀工具
-- [ ]  https://github.com/ASTTeam/CodeQL
+- [ ]  https://github.com/ASTTeam/CodeQL | 基于语义的代码扫描工具 | 140
 - [ ]  https://github.com/ASTTeam/Semgrep
 - [ ]  https://github.com/returntocorp/semgrep
+- [ ]  https://github.com/facebook/infer
+- [ ]  https://github.com/joernio/joern
+- [ ]  https://github.com/accurics/terrascan
+- [ ]  https://github.com/SonarSource/sonarqube
+- [ ]  https://github.com/MobSF/mobsfscan
+- [ ]  https://github.com/Tencent/CodeAnalysis
 
 二、开源工具
 - https://github.com/topics/SAST
 - https://github.com/search?q=SAST
-- [ ]  https://github.com/analysis-tools-dev/static-analysis
-- [ ]  https://github.com/ZupIT/horusec
-- [ ]  https://github.com/ZupIT/horusec-engine
-- [ ]  https://github.com/insidersec/insider
-- [ ]  https://github.com/FeeiCN/Cobra
-- [ ]  https://github.com/LoRexxar/Kunlun-M
-- [ ]  [https://checkstyle.sourceforge.io](https://checkstyle.sourceforge.io/)
-- [ ]  https://github.com/j5s/XVulnFinder
-- [ ] https://www.microfocus.com
-- [ ] https://github.com/magnologan/gha-devsecops
-- [ ] https://github.com/we45/ThreatPlaybook
-- [ ] https://github.com/ajinabraham/njsscan
-- [ ] https://github.com/XianYanTechnology/RocB
-- [ ] https://github.com/SAST-skill-docers/sast-skill-docs
-- [ ] https://github.com/NodeSecure/js-x-ray
-- [ ] https://github.com/cxai/Checkmarx-PowerTools
+- [x]  https://github.com/FeeiCN/Cobra | 源代码安全审计 | 2.8k
+- [x]  https://github.com/LoRexxar/Kunlun-M | 开源的静态白盒扫描工具 | 1.4k
+- [x]  https://github.com/zsdlove/Hades | Java静态代码脆弱性检测系统 | 400
+- [x]  https://github.com/ZupIT/horusec | 一条命令识别项目中的漏洞 | 661
+- [x]  https://github.com/insidersec/insider | 专注于覆盖OWASP漏洞扫描 | 341
+- [ ] https://github.com/ajinabraham/njsscan | Node.js代码扫描工具 | 232
+- [ ] https://github.com/XianYanTechnology/RocB | Java代码审计IDEA插件SAST | 118
+- [ ] https://github.com/wahyuhadi/rinjani
 - [ ] https://github.com/checkmarx-ts/CxAnalytix
 - [ ] https://github.com/secdec/astam-correlator
 - [ ] https://github.com/MagpieBridge/CryptoAnalysis-Android
@@ -95,7 +98,6 @@ SAST在安全领域极其重要，不仅是解决漏洞的有效利器，更是�
 - [ ] https://github.com/ShiftLeftSecurity/sast-scan
 - [ ] https://github.com/AppThreat/sast-scan
 - [ ] https://github.com/mpast/mobileAudit
-- [ ] https://github.com/accurics/terrascan
 - [ ] https://github.com/ajinabraham/nodejsscan
 - [ ] https://github.com/r0hi7/DockerENT
 - [ ] https://github.com/ajinabraham/libsast
@@ -103,16 +105,11 @@ SAST在安全领域极其重要，不仅是解决漏洞的有效利器，更是�
 - [ ] https://github.com/CloudDefenseAI/cd
 - [ ] https://github.com/oversecured/oversecured-bitrise-step
 - [ ] https://github.com/ivan-sincek/go-actions
-- [ ] https://github.com/wahyuhadi/rinjani
-- [ ] https://github.com/zsdlove/Hades | 静态代码脆弱性检测系统 | 386
-- [ ] https://github.com/SonarSource/sonarqube
 - [ ] https://github.com/github/codeql-cli-binaries
 - [ ] https://github.com/facebookarchive/pfff
 - [ ] https://github.com/Osthanes/appscan_static_analyzer
 - [ ] https://github.com/clj-holmes/clj-holmes
 - [ ] https://github.com/dvelopp/SpringAngularApp
-- [ ] https://github.com/IBM/sonarqube
-- [ ] https://github.com/IBM/workshop-template
 - [ ] https://github.com/jonrau1/CodeArtifactVulnScanner
 - [ ] https://github.com/azharanees/OWASP-iGNITA
 - [ ] https://github.com/joyliu-q/SASTAll
@@ -126,19 +123,23 @@ SAST在安全领域极其重要，不仅是解决漏洞的有效利器，更是�
 - [ ] https://github.com/SummerSec/SPATool
 - [ ] https://github.com/checkstyle/checkstyle
 - [ ] https://github.com/securego/gosec
-- [ ] https://github.com/facebook/infer
 - [ ] https://github.com/marcinguy/scanmycode-ce
 - [ ] https://github.com/AppThreat/dep-scan
-- [ ] https://github.com/Tencent/CodeAnalysis
 - [ ] https://github.com/murphysecurity/murphysec
-- [ ] https://xz.aliyun.com/t/10756
-- [ ] https://github.com/joernio/joern
-- [ ] https://github.com/MobSF/Mobile-Security-Framework-MobSF
 - [ ] https://github.com/droidsec-cn/Alien-Intelligent-Security-Assessment-for-Android
+- [ ] https://github.com/j5s/XVulnFinder
+- [ ] https://github.com/magnologan/gha-devsecops
+- [ ] https://github.com/we45/ThreatPlaybook
+- [ ] https://github.com/SAST-skill-docers/sast-skill-docs
+- [ ] https://github.com/NodeSecure/js-x-ray
+- [ ] https://github.com/cxai/Checkmarx-PowerTools
 
 三、商业产品
 - [ ] [腾讯Xcheck](https://cloud.tencent.com/product/asd)
 - [ ] [奇安信代码卫士]()
+- [ ] [Fortify](https://www.joinfortify.com)
+- [ ] https://www.microfocus.com
+- [ ] [https://checkstyle.sourceforge.io](https://checkstyle.sourceforge.io/)
 
 ## 03-SAST原理
 
@@ -156,6 +157,8 @@ SAST在安全领域极其重要，不仅是解决漏洞的有效利器，更是�
 
 ## 04-SAST开发
 
+- 如何开发一款优秀的SAST工具产品？
+
 ## 05-SAST未来
 
 - 一款优秀的SAST产品应该具备什么样的特性？
@@ -163,5 +166,16 @@ SAST在安全领域极其重要，不仅是解决漏洞的有效利器，更是�
 ## 06-SAST参考
 
 - https://github.com/HackJava/HackJava
+- https://github.com/Hackaspx/Hackaspx
+- https://github.com/FuckPHP/FuckPHP
+- https://github.com/HackGolang/HackGolang
+
+## Stargazers
+
+[![Stargazers @ASTTeam/SAST](https://reporoster.com/stars/ASTTeam/SAST)](https://github.com/ASTTeam/SAST/stargazers)
+
+## Forkers
+
+[![Forkers @ASTTeam/SAST](https://reporoster.com/forks/ASTTeam/SAST)](https://github.com/ASTTeam/SAST/network/members)
 
 [![Stargazers over time](https://starchart.cc//ASTTeam/SAST.svg)](https://starchart.cc/ASTTeam/SAST)
