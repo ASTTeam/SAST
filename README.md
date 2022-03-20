@@ -1,7 +1,7 @@
 # 《深入理解SAST静态应用安全测试》
-SAST在安全领域极其重要，不仅是解决漏洞的有效利器，更是基础安全之上发现漏洞的有效方法。尽管SAST有时弊病百出，比如严重依赖规则、误报漏报率太高、特定漏洞无法检测等问题。但SAST的发展从根本上推动了安全漏洞的发展，弥补了DAST的不足，促进了IAST的落地。SAST是代码审计，SAST不只是代码审计！作者：[0e0w](https://github.com/0e0w)
+SAST在安全领域极其重要，不仅是解决漏洞的有效利器，更是基础安全之上发现漏洞的有效方法。尽管SAST有时弊病百出，比如严重依赖规则、误报漏报率太高、特定漏洞无法检测等问题。但SAST的发展从根本上推动了安全漏洞的发展，弥补了DAST的不足，促进了IAST的落地。代码审计是SAST，SAST不只是代码审计！作者：[0e0w](https://github.com/0e0w)
 
-本项目创建于2022年1月22日，最近的一次更新时间为2022年3月19日。项目持续更新，直到海枯石烂！
+本项目创建于2022年1月22日，最近的一次更新时间为2022年3月20日。项目会持续更新，直到海枯石烂！
 
 - [01-SAST资源](https://github.com/ASTTeam/SAST#01-sast%E8%B5%84%E6%BA%90)
 - [02-SAST工具](https://github.com/ASTTeam/SAST#02-sast%E5%B7%A5%E5%85%B7)
@@ -38,13 +38,11 @@ SAST在安全领域极其重要，不仅是解决漏洞的有效利器，更是�
 - [ ] https://xz.aliyun.com/t/9335
 - [ ] https://xz.aliyun.com/t/9429
 - [ ] https://xz.aliyun.com/t/10756
-- [ ] https://github.com/trailofbits/pip-audit
-- [ ] https://www.freebuf.com/sectool/240588.html
-- [ ] https://paper.seebug.org/1339
 - [ ] https://xz.aliyun.com/t/9531
+- Github
+- [ ] https://github.com/trailofbits/pip-audit
 - [ ] https://github.com/rishisoni90/SECURE-PROGRAMMING-UTA
 - [ ] https://github.com/RangerNJU/Static-Program-Analysis-Book
-- [ ] https://evilpan.com/2022/01/22/code-audit
 - [ ] https://github.com/lcatro/Source-and-Fuzzing
 - [ ] https://github.com/pen4uin/static-analysis
 - [ ] https://github.com/pen4uin/dotnet-security
@@ -54,6 +52,11 @@ SAST在安全领域极其重要，不仅是解决漏洞的有效利器，更是�
 - [ ] https://github.com/jiangsir404/Audit-Learning
 - [ ] https://github.com/twosmi1e/Static-Analysis-and-Automated-Code-Audit
 - [ ] https://github.com/SummerSec/Static-Analysis
+- Freebuf
+- [ ] https://www.freebuf.com/sectool/240588.html
+- 其他
+- [ ] https://paper.seebug.org/1339
+- [ ] https://evilpan.com/2022/01/22/code-audit
 - [ ] https://www.softwaretestinghelp.com/tools/top-40-static-code-analysis-tools
 - [ ] https://en.wikipedia.org/wiki/List_of_tools_for_static_code_analysis
 - [ ] https://owasp.org/www-community/Source_Code_Analysis_Tools
