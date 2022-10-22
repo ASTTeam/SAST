@@ -39,13 +39,11 @@ SAST在安全领域极其重要，不仅是解决漏洞的有效利器，更是�
 - [ ] [《Lessons from Building Static Analysis Tools at Google》](https://cseweb.ucsd.edu/~dstefan/cse227-spring20/papers/sadowski:lessons.pdf)
 
 六、其他资源
-- 先知
 - [ ] https://xz.aliyun.com/t/10216
 - [ ] https://xz.aliyun.com/t/9335
 - [ ] https://xz.aliyun.com/t/9429
 - [ ] https://xz.aliyun.com/t/10756
 - [ ] https://xz.aliyun.com/t/9531
-- Github
 - [ ] https://github.com/trailofbits/pip-audit
 - [ ] https://github.com/rishisoni90/SECURE-PROGRAMMING-UTA
 - [ ] https://github.com/RangerNJU/Static-Program-Analysis-Book
@@ -58,9 +56,7 @@ SAST在安全领域极其重要，不仅是解决漏洞的有效利器，更是�
 - [ ] https://github.com/jiangsir404/Audit-Learning
 - [ ] https://github.com/twosmi1e/Static-Analysis-and-Automated-Code-Audit
 - [ ] https://github.com/SummerSec/Static-Analysis
-- Freebuf
 - [ ] https://www.freebuf.com/sectool/240588.html
-- 其他
 - [ ] https://paper.seebug.org/1339
 - [ ] https://evilpan.com/2022/01/22/code-audit
 - [ ] https://www.softwaretestinghelp.com/tools/top-40-static-code-analysis-tools
