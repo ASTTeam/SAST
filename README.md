@@ -77,8 +77,10 @@ SAST在安全领域极其重要，不仅是解决漏洞的有效利器，更是�
 - https://github.com/analysis-tools-dev/static-analysis
 
 一、优秀工具
-- [ ]  https://github.com/ASTTeam/CodeQL | 基于语义的代码扫描工具 | 140
-- [ ]  https://github.com/ASTTeam/Semgrep
+- [x]  https://github.com/ASTTeam/Fortify
+- [x]  https://github.com/ASTTeam/CodeQL | 基于语义的代码扫描工具 | 767
+- [x]  https://github.com/ASTTeam/Semgrep
+- [x]  https://github.com/ASTTeam/SonarQube
 - [ ]  https://github.com/returntocorp/semgrep
 - [ ]  https://github.com/facebook/infer
 - [ ]  https://github.com/joernio/joern
@@ -91,8 +93,10 @@ SAST在安全领域极其重要，不仅是解决漏洞的有效利器，更是�
 - [ ]  http://svf-tools.github.io/SVF
 
 二、开源工具
+
 - https://github.com/topics/SAST
 - https://github.com/search?q=SAST
+
 - [x]  https://github.com/FeeiCN/Cobra | 源代码安全审计 | 2.8k
 - [x]  https://github.com/LoRexxar/Kunlun-M | 开源的静态白盒扫描工具 | 1.4k
 - [x]  https://github.com/zsdlove/Hades | Java静态代码脆弱性检测系统 | 400
