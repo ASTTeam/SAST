@@ -79,7 +79,6 @@ SAST在安全领域极其重要，不仅是解决漏洞的有效利器，更是�
 - [x]  https://github.com/ASTTeam/CodeQL | 基于语义的代码扫描工具 | 767
 - [x]  https://github.com/ASTTeam/Semgrep
 - [x]  https://github.com/ASTTeam/SonarQube
-- [ ]  https://github.com/returntocorp/semgrep
 - [ ]  https://github.com/facebook/infer
 - [ ]  https://github.com/joernio/joern
 - [ ]  https://github.com/accurics/terrascan
@@ -150,6 +149,7 @@ SAST在安全领域极其重要，不仅是解决漏洞的有效利器，更是�
 - [ ] https://github.com/Er1cccc/ACAF
 - [ ] https://github.com/zricethezav/gitleaks
 - [ ] https://github.com/4ra1n/swing-rce-inspector
+- [ ] https://github.com/analysis-tools-dev/static-analysis
 
 三、商业产品
 - [ ] [腾讯Xcheck](https://cloud.tencent.com/product/asd)
