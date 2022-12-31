@@ -4,14 +4,13 @@
 
 SAST在安全领域极其重要，不仅是解决漏洞的有效利器，更是基础安全之上发现漏洞的有效方法。尽管SAST有时弊病百出，比如严重依赖规则、误报漏报率太高、特定漏洞无法检测等问题。但SAST的发展从根本上推动了代码安全和安全开发的发展，弥补了DAST的不足，促进了IAST的落地，见证了DevSecOps的辉煌！作者：[0e0w](https://github.com/0e0w)
 
-本项目创建于2022年1月22日，最近的一次更新时间为2022年10月28日。项目会持续更新，直到海枯石烂！
+本项目创建于2022年1月22日，最近的一次更新时间为2022年12月31日。项目会持续更新，直到海枯石烂！
 
 - [01-SAST资源](https://github.com/ASTTeam/SAST#01-sast%E8%B5%84%E6%BA%90)
 - [02-SAST工具](https://github.com/ASTTeam/SAST#02-sast%E5%B7%A5%E5%85%B7)
 - [03-SAST原理](https://github.com/ASTTeam/SAST#03-sast%E5%8E%9F%E7%90%86)
 - [04-SAST开发](https://github.com/ASTTeam/SAST#04-sast%E5%BC%80%E5%8F%91)
-- [05-SAST未来](https://github.com/ASTTeam/SAST#05-sast%E6%9C%AA%E6%9D%A5)
-- [06-SAST参考](https://github.com/ASTTeam/SAST#06-sast%E5%8F%82%E8%80%83)
+- [05-SAST参考](https://github.com/ASTTeam/SAST#05-sast%E5%8F%82%E8%80%83)
 
 ## 01-SAST资源
 
@@ -77,9 +76,10 @@ SAST在安全领域极其重要，不仅是解决漏洞的有效利器，更是�
 
 一、优秀工具
 - [x]  https://github.com/ASTTeam/Fortify | 优秀的代码审计工具
-- [x]  https://github.com/ASTTeam/CodeQL | 基于语义的代码扫描工具 | 767
+- [x]  https://github.com/ASTTeam/CodeQL | 基于语义的代码扫描工具 | 833
 - [x]  https://github.com/ASTTeam/Semgrep
 - [x]  https://github.com/ASTTeam/SonarQube
+- [ ]  https://github.com/ASTTeam/Coverity
 - [ ]  https://github.com/facebook/infer
 - [ ]  https://github.com/joernio/joern
 - [ ]  https://github.com/accurics/terrascan
@@ -89,6 +89,7 @@ SAST在安全领域极其重要，不仅是解决漏洞的有效利器，更是�
 - [ ]  https://github.com/securego/gosec
 - [ ]  https://github.com/CoolerVoid/codecat
 - [ ]  http://svf-tools.github.io/SVF
+- [ ]  https://github.com/4ra1n/code-inspector
 
 二、开源工具
 
@@ -177,16 +178,14 @@ SAST在安全领域极其重要，不仅是解决漏洞的有效利器，更是�
 
 - 如何开发一款优秀的SAST工具产品？
 
-## 05-SAST未来
-
 - 一款优秀的SAST产品应该具备什么样的特性？
 
-## 06-SAST参考
+## 05-SAST参考
 
 - https://github.com/HackJava/HackJava
 - https://github.com/Hackaspx/Hackaspx
 - https://github.com/FuckPHP/FuckPHP
-- https://github.com/HackGolang/HackGolang
+- https://github.com/LearnGolang/HackGolang
 
 ## Stargazers
 
