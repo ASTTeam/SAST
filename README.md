@@ -4,7 +4,7 @@
 
 SAST在安全领域极其重要，不仅是解决漏洞的有效利器，更是基础安全之上发现漏洞的有效方法。尽管SAST有时弊病百出，比如严重依赖规则、误报漏报率太高、特定漏洞无法检测等问题。但SAST的发展从根本上推动了代码安全和安全开发的发展，弥补了DAST的不足，促进了IAST的落地，见证了DevSecOps的辉煌！作者：[0e0w](https://github.com/0e0w)
 
-本项目创建于2022年1月22日，最近的一次更新时间为2023年7月31日。项目会持续更新，直到海枯石烂！
+本项目创建于2022年1月22日，最近的一次更新时间为2025年9月28日。项目会持续更新，直到海枯石烂！
 
 - [01-SAST资源](https://github.com/ASTTeam/SAST#01-sast%E8%B5%84%E6%BA%90)
 - [02-SAST工具](https://github.com/ASTTeam/SAST#02-sast%E5%B7%A5%E5%85%B7)
@@ -101,6 +101,7 @@ SAST在安全领域极其重要，不仅是解决漏洞的有效利器，更是�
 - [x]  https://github.com/insidersec/insider | 专注于覆盖OWASP漏洞扫描 | 341
 - [ ] https://github.com/ajinabraham/njsscan | Node.js代码扫描工具 | 232
 - [ ] https://github.com/XianYanTechnology/RocB | Java代码审计IDEA插件SAST | 118
+- [ ] https://github.com/Chanzi-keji/chanzi
 - [ ] https://github.com/SourceCode-AI/aura
 - [ ] https://github.com/wahyuhadi/rinjani
 - [ ] https://github.com/checkmarx-ts/CxAnalytix
@@ -198,3 +199,4 @@ SAST在安全领域极其重要，不仅是解决漏洞的有效利器，更是�
 [![Forkers @ASTTeam/SAST](https://reporoster.com/forks/ASTTeam/SAST)](https://github.com/ASTTeam/SAST/network/members)
 
 [![Stargazers over time](https://starchart.cc//ASTTeam/SAST.svg)](https://starchart.cc/ASTTeam/SAST)
+
